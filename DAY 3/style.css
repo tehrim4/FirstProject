@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+/* HEADER PART CSS */
+
+/* .header {
+    border: 1px solid black;
+} */
+.header > aside {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header > aside > section {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+}
+.header > aside > section > main {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.fa-play {
+    color: rgb(206, 73, 24);
+}
+
+.tag {
+    font-family: "Engagement", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color : rgb(206, 73, 24);
+}
+
+.tag-1 {
+    font-family: "Engagement", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.like {
+    font-size: 13px;
+    font-family: "Comic Neue", cursive;
+    font-weight: lighter;
+    font-style: normal;
+}
+.logo {
+    height: 45px;
+    width: 100px;
+    border: none;
+    box-shadow: 1px 1px 4px 3px rgb(249, 171, 171);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.fa-play {
+    width: 20px;
+}
+.fa-searchengin {
+    font-size: 25px;
+    color: rgb(4, 4, 72);
+}
+.start {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.header > aside > .start {
+    width: 70%;
+}
+.header > aside > .end {
+    width: 30%;
+}
+.header > aside > section > main {
+    border: 1px solid #111;
+    display: flex;
+    flex-direction: row;
+}
